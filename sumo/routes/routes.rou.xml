@@ -1,0 +1,31 @@
+<routes>
+    <vType id="car" accel="1.0" decel="1.5" maxSpeed="13.9" length="5" />
+
+    <!-- North-South flows -->
+    <flow id="flow_ns_1" type="car" begin="0" end="1000" number="20">
+        <route edges="A0A1 A1A2 A2A3"/>
+    </flow>
+    <flow id="flow_ns_2" type="car" begin="0" end="1000" number="20">
+        <route edges="B0B1 B1B2 B2B3"/>
+    </flow>
+    <flow id="flow_ns_3" type="car" begin="0" end="1000" number="20">
+        <route edges="C0C1 C1C2 C2C3"/>
+    </flow>
+    <flow id="flow_ns_4" type="car" begin="0" end="1000" number="20">
+        <route edges="D0D1 D1D2 D2D3"/>
+    </flow>
+
+    <!-- West-East flows -->
+    <flow id="flow_we_1" type="car" begin="0" end="1000" number="20">
+        <route edges="A0B0 B0C0 C0D0"/>
+    </flow>
+    <flow id="flow_we_2" type="car" begin="0" end="1000" number="20">
+        <route edges="A1B1 B1C1 C1D1"/>
+    </flow>
+    <flow id="flow_we_3" type="car" begin="0" end="1000" number="20">
+        <route edges="A2B2 B2C2 C2D2"/>
+    </flow>
+    <flow id="flow_we_4" type="car" begin="0" end="1000" number="20">
+        <route edges="A3B3 B3C3 C3D3"/>
+    </flow>
+</routes>
