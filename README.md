@@ -71,10 +71,12 @@ RL-Traffic-Signal-Control/
 │── requirements.txt
 ```
 
-***lResults Interpretation***
+***Results Interpretation***
 
 - The agent progressively reduces vehicle halting across episodes
 - Total episode reward generally improves with training, reflecting smoother traffic flow
+  <img width="577" height="18" alt="image" src="https://github.com/user-attachments/assets/3508082c-bd03-4e07-a091-9cfdce5c6ce2" />
+  <img width="592" height="19" alt="image" src="https://github.com/user-attachments/assets/b63cf4d1-6ba8-4dbf-8a49-5c1f79105276" />
 - Learned policies generalize to dynamic traffic scenarios by selecting phase combinations that minimize congestion
 
 ***Insights***
